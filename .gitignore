@@ -8,6 +8,8 @@ src/main/frontend/generated
 ./*.ts
 ./*.lock
 
+/node_modules
+
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
@@ -44,3 +46,8 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+/src/main/bundles/dev.bundle
+/src/main/bundles/README.md
+/package.json
+/tsconfig.json
+/types.d.ts

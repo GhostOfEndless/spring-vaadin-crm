@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DiffGenerationConfig">
+    <option name="snapshotDb" value="false" />
+    <option name="snapshotModelValue" value="spring-vaadin-crm.main:entityManagerFactory" />
+    <option name="sourceModelValue" value="spring-vaadin-crm.main:entityManagerFactory" />
+    <option name="targetDbValue" value="4fa5feb4-702d-41fd-9fdc-913420c99f58" />
+  </component>
+</project>
