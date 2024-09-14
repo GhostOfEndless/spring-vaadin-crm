@@ -1,5 +1,8 @@
 server:
   port: ${PORT:8080}
+  servlet:
+    session:
+      tracking-modes: cookie
 
 logging:
   level:
@@ -22,6 +25,7 @@ spring:
   flyway:
     enabled: true
     schemas:
+      - public
       - security
 
 vaadin:
@@ -31,3 +35,7 @@ vaadin:
     - org.vaadin
     - dev.hilla
     - org.example
+
+jwt:
+  auth:
+    secret: J6GOtcwC2NJI1l0VkHu20PacPFGTxpirBxWwynoHjsc=
