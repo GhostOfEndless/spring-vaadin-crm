@@ -1,0 +1,11 @@
+services:
+  security-db:
+    image: postgres:16.4-alpine
+    container_name: security-db
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: user
+      POSTGRES_DB: security_db
